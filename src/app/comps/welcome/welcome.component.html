@@ -1,0 +1,35 @@
+<div class="container-fluid bg-light py-5">
+  <h1 class="display-5 fw-bold">Welcome to Quiz app</h1>
+  <p class="col-md-8 fs-4">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae nulla qui
+    quo. Iure beatae dolores aliquam natus consectetur error rerum praesentium
+    enim commodi, voluptates consequatur rem nihil blanditiis eius corrupti?
+  </p>
+  <h4>Rules:</h4>
+  <ul>
+    <li>Correct questions will give you 10 points</li>
+    <li>Incorrect questions deduct 5 points</li>
+    <li>You will have 10 seconds to answer each questions</li>
+    <li>Refreshing the page will reset the quiz</li>
+  </ul>
+
+  <h1
+    style="
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+    "
+  >
+    All the Best!!!
+  </h1>
+  <div class="name col-md-4 my-3">
+    <label for="">Enter your name:</label>
+    <input #name type="text" class="form-control" />
+  </div>
+  <button
+    class="btn btn-primary btn-lg mx-3"
+    routerLink="/questions"
+    (click)="startQuiz()"
+  >
+    Start Quiz
+  </button>
+</div>
