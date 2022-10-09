@@ -2,12 +2,12 @@
 
 This project was purely generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
-##Description
+## Description
 1. Quiz contains 9 Questions which can also be changed
 2. The timer of 60 sec for each question will starts once you start the quiz
 3. Score will be shown after completion of quiz
 
-##Dev notes
+## Dev notes
 1. Quiz is based on questions and options extracted from a JSON file
 2. Timer is derived from interval attribute of rxjs library
 3. Contains 3 components a service and a directive attribute
